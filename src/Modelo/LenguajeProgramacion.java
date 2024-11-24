@@ -53,9 +53,9 @@ public class LenguajeProgramacion {
     //Método toString
     @Override
     public String toString(){
-        return "\n-Anio de creacion = " + AnioCreacion +
+        return "\n-Nombre = " + Nombre +
+               "\n-Anio de creacion = " + AnioCreacion +
                "\n-Caracteristica principal = " + CaracteristicaPrincipal +
-               "\n-Nombre = " + Nombre +
                "\n-Utilizacion = " + Utilizacion
                 ;
     }
