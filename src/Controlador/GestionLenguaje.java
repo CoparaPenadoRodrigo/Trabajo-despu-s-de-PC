@@ -26,9 +26,9 @@ public class GestionLenguaje {
     }
     
     //Método para buscar lenguaje por nombre
-    public LenguajeProgramacion BuscarLenguaje (String nombre) {
+    public LenguajeProgramacion BuscarLenguaje (String Nombre) {
         for (int i = 0; i < ContadorLenguajes; i++) {
-            if (ArregloLenguajes[i].getNombre().equalsIgnoreCase(nombre)) {
+            if (ArregloLenguajes[i].getNombre().equalsIgnoreCase(Nombre)) {
                 return ArregloLenguajes[i]; // Retornar el lenguaje encontrado
             }    
         }
@@ -64,9 +64,5 @@ public class GestionLenguaje {
                  System.out.println(ArregloLenguajes[i]);
              }
          }
-     }
-
-    
-
-       
+     }  
 }
